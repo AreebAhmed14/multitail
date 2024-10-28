@@ -21,7 +21,7 @@ const Header = () => {
         <Link href={"/Contact"}><li className='m-5 max-[780px]:m-2 font-sans text-xl font-bold text-white hover:scale-125 cursor-pointer transition-all duration-[0.5s] hover:text-red-900'>Contact</li></Link>
       </ul>
       </div>
-      <Link href={"/Menu"}> <TiThMenu className='cursor-pointer absolute right-0  hidden mr-6 text-red-800 text-3xl mt-4 max-[670px]:block' /></Link>
+      <Link href={"/Menu"}> <TiThMenu className='cursor-pointer absolute right-0 top-4 hidden mr-6 text-red-800 text-3xl max-[670px]:block' /></Link>
 
     </div>
     

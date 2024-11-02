@@ -5,8 +5,8 @@ const WhyUs = () => {
   return (
     <div>
       <div className="flex bg-black justify-center items-center">
-        <h1 className="text-3xl m-5 font-sans text-white font-bold">
-          WHY <span className="text-red-800">CHOOSE</span> US
+        <h1 className="text-5xl max-[590px]:text-4xl max-[400px]:text-[2rem] m-5 font-sans text-white font-bold">
+          WHY <span className="text-red-800 shadow-2xl shadow-red-800 shadow-inner">CHOOSE</span> US
         </h1>
       </div>
       <div className="w-full bg-black flex justify-around items-center max-[768px]:flex-col max-[1400px]:w-[100%]">
@@ -55,7 +55,7 @@ const WhyUs = () => {
         </div>
 
       </div>
-      <div className="w-full flex justify-center items-center my-5"><Link href={"/About"}><button className="text-xl mb-5 rounded-md p-2 max-[400px]:text-[1rem] max-[400px]:p-1.5 bg-red-900 text-white hover:scale-90 transition-all duration-[0.5s]">READ MORE</button></Link></div>
+      <div className="w-full flex justify-center items-center my-5"><Link href={"/About"}><button className="text-xl mb-5 rounded-md p-2 max-[400px]:text-[1rem] max-[400px]:p-1.5 bg-red-800 hover:shadow-2xl hover:shadow-red-800 text-white hover:scale-90 transition-all duration-[0.5s]">READ MORE</button></Link></div>
     </div>
   );
 };
